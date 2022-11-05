@@ -19,7 +19,7 @@ void fsm_button_long_pressed_run(){
 			led_counter = 21;
 			Set_timer1(100);
 			}
-			else if(Is_buttonINC_long_pressed()==1){
+			else if(Is_buttonDEC_long_pressed()==1){
 			led_counter = 29;
 			Set_timer1(100);
 				}
